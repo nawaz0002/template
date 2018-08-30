@@ -1,0 +1,285 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: 100%;
+
+}
+.img{
+    background-image: url("../images/intro-bg.jpg");
+    height: 645px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.text{
+    position: relative;
+    top:300px;
+    left: 100px;
+    line-height: 70px;
+}
+.text h1{
+    color:white;
+    font-size: 60px;
+}
+.text p{
+    color:white;
+    font-size: 20px;
+
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    padding:  10px 15px;
+}
+.button:hover{
+    background-color: black;
+    border: none;
+}
+ul{
+    list-style-type: none;
+    
+}
+.nav{
+    background-color:#121D1F;
+    width: 100%;
+    height: 70px;
+    
+    
+}
+.john li{
+    float: left; 
+    font-weight: 600; 
+    font-size: 19px;  
+}
+
+li{
+    float:right;
+    
+    font-weight:500;
+    padding: 28px 15px;
+    
+    color: white;
+    font-size: 15px;
+    
+}
+li:hover{
+    color:#609EB5;
+}
+.about{
+    background-color: #F6F6F6;
+    height: 670px;
+    width: auto;
+    text-align: center;
+    
+    
+}
+.about h3{
+    padding-top: 100px;
+    font-size: 35px;
+    font-weight: 200;
+    padding-bottom: 20px;
+   
+   
+
+
+}
+.images{
+   
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+}
+.about p{
+    color: #656C6D;
+    padding-top: 30px;
+    font-size: 15px;
+    width: 600px;
+    align-content: center;
+}
+.about-text{
+  margin-left: 350px;
+}
+.buttn{
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    padding: 14px 25px;
+    background-color: #121D1F;
+    color: white;
+    
+}
+a{
+    margin-top: 100px;
+}
+.skills { 
+    background-color: #7BC3D1;
+    height: 800px;
+}
+.skill > h3{
+    padding: 60px;
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.skill-row{
+    padding-left: 130px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 80px;
+}
+.skill-text{
+    padding-top: 45px;
+    padding-left: 40px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 49px;
+}
+.percent{
+   position: relative;
+   right: 95px;
+   top:-70px;
+    font-size: 20px;
+}
+.section-title{
+    background-color: #F6F6F6;
+    height: 800px;
+    
+}
+.portfolio{
+    text-align: center;
+    
+}
+h2{
+    padding: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+.portfolio-row > a > img{
+    width: 250px;
+    height: 250px;
+    padding: 18px;
+    
+}
+.some-stat{
+    height: 420px;
+    background-color: #7BC3D1;
+}
+.some-stat > h2{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    font-weight: 400;
+}
+.stat{
+    padding: 60px 105px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+}
+.number{
+    font-size: 50px;
+    color: #121D1F;
+    font-weight: 700;
+}
+.feed{
+    color: white;
+    font-size: 20px;
+    
+}
+.container{
+    height: 640px;
+    background-color: #F6F6F6;
+}
+.experience > h4{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    padding: 90px;
+  
+}
+.ux > h3{
+   font-size: 18px;
+   color: #121D1F;
+   line-height: 30px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    left: 44%;
+
+}
+
+.ux{
+    width: 400px;
+    text-align:right;
+    color: #656c6d;
+    position: relative;
+    top: -120px;
+    left: 150px;
+    font-size: 15px;
+    
+}
+.enter{
+    position: relative;
+    top: -190px;
+    left: 630px;
+    line-height: 40px;
+    font-weight: 16em;
+    color:  #656c6d;
+    font-size: 18px;
+}
+.uright{
+    width: 500px;
+    text-align:left;
+    color: #656c6d;
+    position: relative;
+    top: -120px;
+    right: -790px;
+    font-size: 15px;
+}
+.uright  > h3{
+    font-size: 18px;
+    color: #121D1F;
+    line-height: 30px;
+ }
+ .contact{
+     height: 500px;
+     background-color: #7BC3D1;
+ }
+ h2{
+     color: white;
+     text-align: center;
+     
+ }
+ .leave{
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     padding: 20px;
+ }
+ input{
+    height: 25px;
+    width: 300px;
+    
+ }
+ .form{
+     padding: 20px;
+ }
